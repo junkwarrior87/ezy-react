@@ -1,0 +1,30 @@
+{
+  "name": "@goldfinger87/ezy-react",
+  "version": "0.0.4",
+  "description": "Convenient wrappers for React",
+  "type": "module",
+  "main": "index.cjs",
+  "module": "index.esm.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.{cjs,esm,d}*",
+    "*.d.ts"
+  ],
+  "repository": "https://github.com/junkwarrior87/ezy-react.git",
+  "keywords": [
+    "react",
+    "react-wrappers"
+  ],
+  "author": "junkwarrior87",
+  "license": "MIT",
+  "bugs": "https://github.com/junkwarrior87/ezy-react/issues",
+  "homepage": "https://github.com/junkwarrior87/ezy-react",
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.35",
+    "microbundle": "^0.15.1",
+    "react": "^18.2.0"
+  }
+}
